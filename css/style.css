@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Fredoka+One&family=Itim&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+.parallax-image {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-image {
+  background-image: url("../images/cofee-1.jpg");
+}
+
+.animated-link {
+  border-radius: 8px;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: inline-block;
+  font-size: 3rem;
+  padding: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.4s ease-in-out;
+}
+
+.animated-link:hover {
+  transform: scale(1.2);
+}
+
+.intro-image_link,
+.origin-image_link {
+  background-color: rgba(166, 30, 77, 0.6);
+  background: linear-gradient(
+    90deg,
+    rgba(166, 30, 77, 0.6) 0%,
+    rgba(166, 30, 77, 0.6) 15%,
+    rgba(217, 72, 15, 0.6) 35%,
+    rgba(217, 72, 15, 0.6) 35%,
+    rgba(217, 72, 15, 0.6) 65%,
+    rgba(217, 72, 15, 0.6) 65%,
+    rgba(166, 30, 77, 0.6) 85%,
+    rgba(166, 30, 77, 0.6) 100%
+  );
+}
+
+.intro-image_link:hover,
+.origin-image_link:hover {
+  background-color: rgba(217, 72, 15, 0.6);
+  background: linear-gradient(
+    90deg,
+    rgba(217, 72, 15, 0.6) 0%,
+    rgba(217, 72, 15, 0.6) 15%,
+    rgba(166, 30, 77, 0.6) 35%,
+    rgba(166, 30, 77, 0.6) 35%,
+    rgba(166, 30, 77, 0.6) 65%,
+    rgba(166, 30, 77, 0.6) 65%,
+    rgba(217, 72, 15, 0.6) 85%,
+    rgba(217, 72, 15, 0.6) 100%
+  );
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  padding: 15rem;
+}
+
+.intro-text {
+  background-color: #964b00;
+  color: #fff;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.intro-text_textbox p {
+  font-weight: 200;
+}
+
+.quality-image {
+  background-image: url("../images/cofee-2.jpg");
+}
+
+.quality-image_link a {
+  background-color: rgba(134, 142, 150, 0.4);
+  color: rgb(255, 255, 255);
+}
+
+.quality-text {
+  background-color: #765341;
+  color: #fff;
+}
+
+.origin-image {
+  background-image: url("../images/cofee-3.jpg");
+}
+
+.origin-text {
+  background-color: #964b00;
+  color: #e9edf6;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer {
+  color: #ccc;
+  background-color: #857c7e9e;
+  padding: 2rem 0;
+  font-size: 1.4rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.contact p {
+  color: #fff;
+  font-weight: 300;
+}
+
+.footer-links li a:link,
+.footer-links li a:visited {
+  color: #1864ab;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  color: #6741d9;
+}
